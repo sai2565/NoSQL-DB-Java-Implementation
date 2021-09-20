@@ -8,7 +8,6 @@ import org.json.simple.parser.JSONParser;
 
 public class NoSQLDB {
 //driver function
-@SuppressWarnings({ "unchecked", "static-access" })
 public static void main(String[] args) {
 while(true){
 try{
@@ -30,7 +29,6 @@ System.out.println("Choose one of the following database operations");
 System.out.println("Enter 1 to Add a Record");//key value
 System.out.println("Enter 2 to Delete Records");//key
 System.out.println("Enter 3 to Find Records");//filter value //selection list
-@SuppressWarnings("resource")
 Scanner in = new Scanner(System.in);
 int selection = in.nextInt();
 int numOfFields = dbConfigObject.size();
@@ -204,7 +202,6 @@ switch (selection) {
 }
 }
 //creating db and a collection that can be extended to multiple collections if required
-@SuppressWarnings({ "resource", "unchecked" })
 public static void createDB(){
  try{
   System.out.println("Please setup your database to proceed");
