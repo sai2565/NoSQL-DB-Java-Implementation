@@ -2,9 +2,9 @@
 
 To execute this tool, follow below steps :
 
-> Download the 'NoSQLDB.jar' file
-> Open command prompt and change the working directory to the location of the downloaded jar file ex: C:\Users\Sai\Downloads
-> Execute the command 'java -jar NoSQLDB.jar'
+. Download the 'NoSQLDB.jar' file
+. Open command prompt and change the working directory to the location of the downloaded jar file ex: C:\Users\Sai\Downloads
+. Execute the command 'java -jar NoSQLDB.jar'
 
 Various actions provided by this tool:
 
