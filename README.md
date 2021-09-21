@@ -25,10 +25,10 @@
 * You can also select the field with which you want to match the filter value.
 * Projecting the fields is also possible where the filtered value is matched in only projected fields.
 * for ex: collection schema has Name, City fields <br />
-          __if you filter by 'bangalore' with out projecting any fields, you will get all records with matching City. <br />__
-            __ex res: [{Name:Sharan,City:Bangalore},{Name:Sai,City:Bangalore}] <br />__
-          __if you project Name and filter by 'Bangalore' you will get all the records where Name contains 'bangalore'. <br />__
-            __ex res: [{Name:Bangalore Sharan}] <br />
+          if you filter by 'bangalore' with out projecting any fields, you will get all records with matching City. <br />____
+            ex res: [{Name:Sharan,City:Bangalore},{Name:Sai,City:Bangalore}] <br />
+          if you project Name and filter by 'Bangalore' you will get all the records where Name contains 'bangalore'. <br />____
+            ex res: [{Name:Bangalore Sharan}] <br />
             
 # Display all records
  
